@@ -1,7 +1,8 @@
 namespace MockAuthSystem;
 
-public class User
+public struct User
 {
-    public String? UserName { get; init; }
-    public String? Password { get; set; }
+    public string? UserName { get; init; }
+    public string? Password { get; set; }
+    
 }
